@@ -1,0 +1,76 @@
+html,body{
+  font-family: 'Helvetica Neue';
+  font-weight: light;
+  background-color: white;
+}
+
+div{
+  left: 0;
+  right: 0;
+  padding: 0px;
+}
+
+div#experiment{
+  position: absolute;
+  top: 50px;
+  height: 500px;
+  width: 500px;
+  border: solid black 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div#entry{
+  position: absolute;
+  top: 50px;
+  height: 500px;
+  width: 700px;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+div#instructions{
+  position: absolute;
+  top: 50px;
+  height: 500px;
+  width: 700px;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+div#complete{
+  position: absolute;
+  top: 50px;
+  height: 500px;
+  width: 700px;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+canvas{
+  background-color: white;
+}
+
+button{
+  height: 50px;
+  width: 150px;
+  font-size: 25px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: #03A7FF;
+  letter-spacing: 1px;
+}
+
+input{
+  width: 200px;
+  height: 30px;
+  color: black;
+  font-size: 20px;
+}
