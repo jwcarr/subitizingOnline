@@ -46,7 +46,8 @@ if ($submit == True) {
   <?php if ($submit == True) { echo "
   <div id='complete'>
     <h1>How Many Dots?</h1>
-    <p>Thank you! The task is now complete. If you have any questions about this study, please contact j.w.carr@ed.ac.uk</p>
+    <p>Thank you! The task is now complete. Your completion code is: <strong>{$code}</strong>. Please copy this code into the Mechanical Turk website to receive payment.</p>
+    <p>If you have any questions about this study, please contact j.w.carr@ed.ac.uk</p>
   </div>"; }
   else { echo "
   <div id='entry'>
