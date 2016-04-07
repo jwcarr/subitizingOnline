@@ -6,7 +6,7 @@ if ($submit == True) {
   if (strlen($id) < 5 OR strlen($id) > 30) {
     header('Location: index.php'); exit;
   }
-  $fn = '../../server_data/sub/mt/' . $id;
+  $fn = $data_directory . 'mt/' . $id;
   if (file_exists($fn)) {
     $file = fopen($fn, 'r');
     $content = fread($file, filesize($fn));
